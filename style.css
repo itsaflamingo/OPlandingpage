@@ -1,0 +1,158 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*HEADER*/
+header {
+    height: 450px;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+.top {
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-content: center;
+    margin: 40px 0 0;
+}
+.top-write {
+    display: flex;
+    flex-direction: column;
+    width: 425px;
+    margin-right: 50px;
+    align-items: flex-start;
+    justify-items: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 265px 0;
+}
+.navbar > img {
+    flex-shrink: 0;
+    min-width: 50px;
+    max-height: 50px;
+}
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+ul {
+    display: flex;
+    gap: 20px;
+}
+.top-write > h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: 5px;
+}
+.top-write > p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+button {
+    background-color: #3882F6;
+    color: white;
+    width: 120px;
+    height: 35px;
+    padding: 5px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 15px;
+}
+/*3 PIC SECTION*/
+.middle > h1 {
+    font-size: 36px;
+    color: #1F2937;
+}
+.pics img {
+    width: 200px;
+    border: white;
+    border-radius: 30px;
+    margin: 10px;
+} 
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.pics {
+    display: flex;
+    align-items:center;
+}
+.babyCorgis, .corgiFlop, .corgiButts, .buyACorgi {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+.pics a {
+    color: #6f7174;
+    display: flex;
+    justify-content: center;
+}
+
+.quotediv {
+    height: 300px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+   
+    font-style: italic;
+    color: #1F2937;;
+}
+.quote {
+    font-size: 36px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
+.quotediv h4 {
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -30px;
+
+}
+footer {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calltoaction {
+    background-color: #3882F6;
+    width: 900px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+h2 {
+    color: #F9FAF8;
+    margin-bottom: -10px;
+}
+.calltoaction p {
+    color: #E5E7EB;
+}
+.calltoaction button {
+    border: 2px solid #F9FAF8 ;
+}
+
+
